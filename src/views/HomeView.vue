@@ -113,9 +113,9 @@ export default {
 <style lang="scss" scoped>
 .box {
   width: 350px;
-  height: 100px;
+  height: 150px;
   display: flex;
-  background: white;
+  background: aqua;
   margin: auto;
   div {
     flex: 1;
@@ -148,7 +148,7 @@ ul {
     .XX {
       width: 25px;
       height: 25px;
-      background-color: red;
+      background-color: yellow;
       color: white;
       position: absolute;
       left: -25px;
@@ -164,6 +164,8 @@ input {
   width: 350px;
   margin: 5px 0;
   height: 40px;
+  color: crimson;
+  padding-left: 10px;
 }
 button {
   margin: 5px 0;
