@@ -81,7 +81,6 @@ export default {
 
   methods: {
     ...mapMutations(["ye"]),
-
     add() {
       if (this.name == "" || this.price == "") {
         alert("不能为空");
